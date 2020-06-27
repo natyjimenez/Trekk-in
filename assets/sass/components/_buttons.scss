@@ -1,0 +1,35 @@
+.form-inline button {
+    font-weight: 700;
+    font-size: $medium;
+    color: $white;
+    background-color: $ball-blue;
+    border: none;
+    border-radius: unset;
+    margin-left: 20px;
+
+    &:hover {
+        background-color: $blue-lagoon;
+    }
+
+    &:focus {
+        background-color: $gray !important;
+    }
+}
+
+.card button {
+    color: $white;
+    text-align: center;
+    width: 185px;
+    background-color: $ball-blue;
+    border: unset;
+    border-radius: unset;
+    font-weight: 700;
+
+    &:hover {
+        background-color: $blue-lagoon;
+    }
+
+    &:focus {
+        background-color: $gray !important;
+    }
+}

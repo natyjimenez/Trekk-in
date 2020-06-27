@@ -1,0 +1,31 @@
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+@import 'vendors/bootstrap-4.5.0/bootstrap';
+/*@import 'vendors/jquery-ui';*/
+
+@import 'base/reset';
+@import 'base/base';
+@import 'base/typography';
+
+@import 'layout/navigation';
+/*@import 'layout/main';*/
+@import 'layout/grid';
+@import 'layout/hero-section';
+@import 'layout/caracteristicas';
+@import 'layout/precios';
+@import 'layout/footer';
+
+/*@import 'layout/header';*/
+/*@import 'layout/forms';*/
+
+@import 'components/navbar';
+/*@import 'components/profile';*/
+/*@import 'components/videos';*/
+@import 'components/buttons';
+
+/*@import 'pages/home';*/
+/*@import 'pages/contact';*/
+
+/*@import 'themes/theme';*/
+/*@import 'themes/admin';*/

@@ -1,0 +1,140 @@
+.card h3 {
+    font-weight: 400;
+}
+
+#precios img {
+    width: 100%;
+    position: absolute;
+    top: 1150px;
+    z-index: -1;
+}
+
+.cartas {
+    position: relative;
+    top: 140px;
+    background-color: $onyx;
+}
+
+.card {
+    width: 80%;
+    margin: 15px 20px 15px 30px;
+
+    &:hover {
+        box-shadow: 0 10px 5px 0 $raising-black;
+    }
+}
+
+#precios h2 {
+    text-align: center;
+    position: relative;
+    top: 130px;
+    color: #ffffff;
+    z-index: 1;
+}
+
+#precios>div {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+}
+
+.card-body {
+    height: 500px;
+}
+
+@media (min-width: 576px) {
+    #precios img {
+        top: 1000px;
+    }
+
+    #precios h2 {
+        top: 130px;
+    }
+}
+
+@media (min-width: 700px) {
+    #precios img {
+        top: 1060px;
+    }
+
+    .card-body {
+        height: 400px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #precios img {
+        top: 1200px;
+    }
+
+    #precios h2 {
+        top: 150px;
+    }
+
+    .cartas {
+        top: 190px;
+    }
+}
+
+@media (min-width: 1400px) {
+    #precios img {
+        top: 1300px;
+    }
+
+    #precios h2 {
+        top: 190px;
+    }
+
+    .cartas {
+        top: 220px;
+    }
+}
+
+@media (min-width: 1500px) {
+    #precios img {
+        top: 1500px;
+    }
+
+    #precios h2 {
+        top: 240px;
+    }
+
+    .cartas {
+        top: 300px;
+    }
+}
+
+@media (min-width: 1700px) {
+    #precios img {
+        top: 1700px;
+    }
+
+    #precios h2 {
+        top: 300px;
+    }
+
+    .cartas {
+        top: 350px;
+    }
+}
+
+@media (min-width: 1900px) {
+    #precios img {
+        top: 1800px;
+    }
+}
+
+@media (min-width: 2560px) {
+    #precios img {
+        top: 2400px;
+    }
+
+    #precios h2 {
+        top: 400px;
+    }
+
+    .cartas {
+        top: 500px;
+    }
+}

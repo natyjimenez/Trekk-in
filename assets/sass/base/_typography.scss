@@ -1,0 +1,71 @@
+h1 {
+    font-weight: 700;
+    font-size: $xx-large;
+    color: $raising-black;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: $x-large;
+    color: $raising-black;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: $large;
+    color: $raising-black;
+}
+
+p {
+    font-weight: 400;
+    font-size: $medium;
+    color: $raising-black;
+}
+
+span {
+    font-weight: 700;
+    font-size: $xx-large;
+    color: $raising-black;
+}
+
+@media (min-width: 2560px) {
+    h1 {
+        font-size: $xxxxx-large;
+    }
+
+    h2 {
+        font-size: $xxxx-large;
+    }
+
+    h3 {
+        font-size: $xxx-large;
+    }
+
+    p {
+        font-size: $x-large;
+    }
+
+    span {
+        font-size: $xxxx-large;
+    }
+
+    .nav-link {
+        font-size: $x-large;
+    }
+
+    .form-inline a {
+        font-size: $x-large;
+    }
+
+    .form-inline button {
+        font-size: $x-large;
+    }
+
+    footer a {
+        font-size: $x-large;
+    }
+
+    footer p {
+        font-size: $x-large;
+    }
+}

@@ -1,0 +1,26 @@
+.hero-section__texto {
+    padding: 0 20px;
+}
+
+#hero-section img {
+    width: 100%;
+}
+
+@media (min-width: 576px) {
+    #hero-section div {
+        position: absolute;
+        top: 135px;
+        left: 100px;
+        width: 300px;
+    }
+
+    #hero-section img {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .hero-section__texto {
+        padding: 0;
+    }
+}
+

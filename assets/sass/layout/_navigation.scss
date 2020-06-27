@@ -1,0 +1,19 @@
+#navbar {
+    position: fixed;
+    z-index: 1;
+}
+
+.nav-link {
+    color: $raising-black !important;
+    font-size: $medium;
+}
+
+.form-inline a {
+    color: $raising-black !important;
+    font-weight: 700;
+    font-size: $medium;
+}
+
+.navbar-toggler {
+    border: unset;
+}

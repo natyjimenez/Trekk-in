@@ -1,0 +1,136 @@
+#caracteristicas h2 {
+    text-align: center;
+}
+
+.caracteristicas__barras img {
+    width: 100%;
+}
+
+.caracteristicas__texto {
+    text-align: center;
+}
+
+.caracteristicas__texto p {
+    text-align: left;
+}
+
+@media (min-width: 576px) {
+
+    #caracteristicas {
+        width: 80%;
+        padding: 20px;
+        margin: auto;
+    }
+
+    .caracteristicas__texto {
+        text-align: left;
+    }
+
+    .caracteristicas__texto h3 {
+        margin-top: -40px;
+    }
+
+    .caracteristicas__barras img {
+        padding-top: 190px;
+    }
+}
+
+@media (min-width: 700px) {
+    .caracteristicas__barras img {
+        padding-top: 120px;
+    }
+}
+
+@media (min-width: 800px) {
+    .caracteristicas__barras img {
+        padding-top: 50px;
+    }
+}
+
+@media (min-width: 900px) {
+    .caracteristicas__barras img {
+        padding-top: 10px;
+    }
+}
+
+@media (min-width: 1000px) {
+    #caracteristicas h2 {
+        margin-top: -50px;
+    }
+
+    .caracteristicas__barras img {
+        margin-top: -20px;
+    }
+
+    .caracteristicas__texto h3 {
+        margin-top: -10px;
+    }
+}
+
+@media (min-width: 1100px) {
+    .caracteristicas__barras img {
+        margin-top: -40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .caracteristicas__barras img {
+        margin-top: -50px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .caracteristicas__barras img {
+        margin-top: -100px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .caracteristicas__barras img {
+        margin-top: -110px;
+    }
+}
+
+@media (min-width: 1500px) {
+    #caracteristicas h2 {
+        margin-top: -60px;
+    }
+
+    .caracteristicas__barras img {
+        margin-top: -20px;
+    }
+
+    .caracteristicas__texto h3 {
+        margin-top: 110px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .caracteristicas__texto h3 {
+        margin-top: 130px;
+    }
+}
+
+@media (min-width: 1700px) {
+    .caracteristicas__texto h3 {
+        margin-top: 170px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .caracteristicas__texto h3 {
+        margin-top: 195px;
+    }
+}
+
+@media (min-width: 1900px) {
+    .caracteristicas__texto h3 {
+        margin-top: 220px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .caracteristicas__texto h3 {
+        margin-top: 240px;
+    }
+}
